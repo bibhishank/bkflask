@@ -1,0 +1,10 @@
+email, subject,message
+
+bibhishan@mymail.comTest emailThis is test message
+bibhishan1@mymail.com,Test email1,This is test message1
+bibhishan@email.com,Test Subject,Test Message to save
+bibhishan@email.com,Test Subject,Test Message to save
+bibhishan@email.com,Test Subject,Test Message to save
+bibhishan@email.com,Test Subject,Test Message to save
+bibhishan@email.com,Test Subject,Test Message to save
+bibhishan@email.com,Test Subject,Test Message to save

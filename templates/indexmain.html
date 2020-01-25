@@ -1,0 +1,59 @@
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Bhamai index.html</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='bhamai.ico') }}">
+    <!-- Output href in above line is url_for('static', filename='bhamai.ico') = static/bhamai.ico -->
+
+</head>
+<body>
+    <div>
+        You just spent so much money {{user_name}} Employee number is : {{employee_number}}
+        {{ url_for('static', filename='bhamai.ico') }}
+        {{ 400 + 200}}
+    </div>
+
+    <script src="static/script.js"></script>
+    <table border="1" cellpadding="10" cellspacing="0">
+   <tr>
+      <th></th>
+      <th>Month</th>
+      <th>Rent</th>
+      <th colspan="2">Utilities</th><!-- This cell will span 2 columns in the row below it -->
+      <th>Groceries</th>
+      <th>Eating Out</th>
+      <th>Entertainment</th>
+   </tr>
+    <tr>
+      <td rowspan="3">Fall</td><!-- this cell will span 3 rows, June, July, & August -->
+      <td>June</td>
+      <td>$1500</td>
+      <td>$100</td><!-- The $100 and $50 cells will be under the Utilities cell-->
+      <td>$50</td>
+      <td>$350</td>
+      <td>$100</td>
+      <td>$50</td>
+   </tr>
+   <tr>
+      <td>July</td>
+      <td>$1500</td>
+      <td>$100</td>
+      <td>$50</td>
+      <td>$350</td>
+      <td>$100</td>
+      <td>$50</td>
+   </tr>
+   <tr>
+      <td>August</td>
+      <td>$1500</td>
+      <td>$100</td>
+      <td>$50</td>
+      <td>$350</td>
+      <td>$100</td>
+      <td>$50</td>
+   </tr>
+</table>
+</body>
+</html>
